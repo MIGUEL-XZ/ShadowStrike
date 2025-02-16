@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://i.imgur.com/xZyQ3zn.png" alt="ShadowStrike Logo" width="400">
+  <img src="https://imgur.com/a/e95LG6s" alt="ShadowStrike Logo" width="400">
 </p>
 
 <h1 align="center">🔥 ShadowStrike 🔥</h1>
