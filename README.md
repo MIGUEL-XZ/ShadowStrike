@@ -1,1 +1,8 @@
-#ShadowStrike is the ultimate network stress testing tool designed to simulate high-impact DDoS attacks with advanced anonymization capabilities. With Tor integration, MAC spoofing, and multiple attack threads, ShadowStrike is perfect for anyone looking to understand system resilience or perform penetration testing in controlled environments. Use responsibly, as with great power comes great responsibility. --- ADDITIONAL DETAILS: - Key Features: - Customizable UDP/TCP attacks. - Integration with Tor for total anonymity. - MAC spoofing for identity concealment. - Simple and efficient interface for use in Termux. - Recommended Use: - Security tests on own networks. - Stress simulations on servers. - Learning about cyber defense.
+# ShadowStrike 🔥  
+   *"Ferramenta educacional para simulação de testes de estresse em redes. Use apenas em ambientes controlados com autorização."*  
+
+   ## AVISO ⚠️  
+   **Este projeto é para fins educacionais e de pesquisa.**  
+   - O autor não se responsabiliza pelo uso indevido.  
+   - Ataques a sistemas sem permissão são CRIMES.  
+   - Use este conhecimento para defender, não para atacar.  
