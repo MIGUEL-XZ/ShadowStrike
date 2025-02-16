@@ -4,16 +4,18 @@ import threading
 import sys
 import os
 import time
+import subprocess
 
 # CONFIGURAÇÃO DE ANONIMATO
 def change_tor_ip():
-    os.system("pkill tor")
-    os.system("tor > /dev/null 2>&1 &")
+    subprocess.run(["pkill", "tor"])
+    subprocess.run(["tor"], stdout=subprocess.DEVNULL, stderr=subprocess.STDOUT)
     time.sleep(10)  # AGUARDA O TOR RECONECTAR
 
 def spoof_mac():
-    os.system("termux-setup-storage")
-    os.system("macchanger -r wlan0")
+    if "ANDROID_ROOT" in os.environ:
+        subprocess.run(["termux-setup-storage"])
+    subprocess.run(["macchanger", "-r", "wlan0"])
 
 # CONFIGURAÇÃO DO ATAQUE
 if len(sys.argv) < 2:
@@ -51,3 +53,4 @@ def periodic_ip_change():
 threading.Thread(target=periodic_ip_change, daemon=True).start()
 
 print(f"[🔥] ATAQUE INICIADO! ALVO: {ALVO}")
+        
