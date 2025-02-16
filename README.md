@@ -11,7 +11,7 @@
 
 <div align="center">
 
-[![GitHub License](https://img.shields.io/badge/License-GPL--3.0-red)](LICENSE)
+[![GitHub License](https://img.shields.io/badge/License-MIT-red)](LICENSE)
 [![Python Version](https://img.shields.io/badge/Python-3.8%2B-blue)](https://python.org)
 [![Version](https://img.shields.io/badge/Version-1.0.0-black)](https://github.com/yourusername/ShadowStrike)
 ![For Educational Purposes](https://img.shields.io/badge/For-Educational%20Purposes-green)
