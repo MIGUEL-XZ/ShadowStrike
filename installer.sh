@@ -1,6 +1,6 @@
 #!/bin/bash  
 # ShadowStrike Installer (installer.sh)  
-# Author: Your Name  
+# Author: MIGUEL XZ 
 # License: GPL-3.0  
 
 RED='\033[0;31m'  
